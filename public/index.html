@@ -38,40 +38,34 @@
 
     <section class="flex min-h-screen pt-16 relative">
       <div class="container mx-auto flex items-center flex-row justify-between">
-        <div class="w-2/5 mr-16">
+        <div class="w-3/5 lg:2/5 mr-16">
           <div class="pt-6 px-4 text-white">
-            <h1 class="font-extrabold text-4xl lg:text-6xl leading-tight">
-              Building digital
-            </h1>
-            <h1 class="font-extrabold text-4xl lg:text-6xl leading-tight">
-              products, brands
-            </h1>
-            <h1 class="font-extrabold text-4xl lg:text-6xl leading-tight">
-              experience
-            </h1>
+            <div class="text-2xl md:text-4xl lg:text-6xl mb-2 font-extrabold">
+              <h1>Building digital <br />products, brands <br />experience</h1>
+            </div>
 
-            <p class="text-lg lg:text-xl my-4 text-justify">
+            <p class="hidden md:block text-xl my-4">
               a <strong>Laravel Developer</strong> and upcoming
               <strong>Tailwind Developer</strong> based temporarily in NG.
             </p>
 
-            <div class="inline-flex">
+            <div class="lg:inline-flex flex flex-col lg:flex-row">
               <input
-                class="text-black p-3 rounded-l-lg"
+                class="text-black py-1.5 px-4 lg:py-3 rounded-lg lg:rounded-none lg:rounded-l-lg font-medium"
                 type="text"
                 placeholder="Email address"
               />
               <button
-                class="h-auto px-6 font-semibold rounded-r-lg bg-indigo-600 text-white"
+                class="px-6 py-1.5 mt-2 lg:mt-0 lg:py-3 float-right font-semibold rounded-lg lg:rounded-none lg:rounded-r-lg bg-indigo-600 focus:ring-2 focus:ring-indigo-400 text-white"
                 type="submit"
               >
-                Connect With Me
+                Connect <span class="hidden sm:inline">With Me</span>
               </button>
             </div>
           </div>
         </div>
 
-        <div class="w-3/5">
+        <div class="w-2/5">
           <img src="casual.png" alt="Favour" />
         </div>
       </div>
