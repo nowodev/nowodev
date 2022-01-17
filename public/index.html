@@ -1,13 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-indigo-900">
+    <nav class="top-0 z-50 absolute flex w-full">
+      <div
+        class="container mx-auto py-2 px-4 flex justify-between items-center text-center flex-row"
+      >
+        <div class="w-12 h-12 rounded-full bg-white mr-auto"></div>
+
+        <ul class="inline-flex space-x-16 mr-auto font-bold text-white">
+          <li>
+            <a href="#" class="">About</a>
+          </li>
+          <li>
+            <a href="#" class="">Works</a>
+          </li>
+          <li>
+            <a href="#" class="">Services</a>
+          </li>
+          <li>
+            <a href="#" class="">Contact</a>
+          </li>
+        </ul>
+
+        <div class="flex flex-row gap-3">
+          <div class="w-6 h-6 rounded-full bg-white"></div>
+          <div class="w-6 h-6 rounded-full bg-white"></div>
+          <div class="w-6 h-6 rounded-full bg-white"></div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flex min-h-screen pt-16 relative">
+      <div class="container mx-auto flex items-center flex-row justify-between">
+        <div class="w-2/5 mr-16">
+          <div class="pt-6 px-4 text-white">
+            <h1 class="font-extrabold text-4xl lg:text-6xl leading-tight">
+              Building digital
+            </h1>
+            <h1 class="font-extrabold text-4xl lg:text-6xl leading-tight">
+              products, brands
+            </h1>
+            <h1 class="font-extrabold text-4xl lg:text-6xl leading-tight">
+              experience
+            </h1>
+
+            <p class="text-lg lg:text-xl my-4 text-justify">
+              a <strong>Laravel Developer</strong> and upcoming
+              <strong>Tailwind Developer</strong> based temporarily in NG.
+            </p>
+
+            <div class="inline-flex">
+              <input
+                class="text-black p-3 rounded-l-lg"
+                type="text"
+                placeholder="Email address"
+              />
+              <button
+                class="h-auto px-6 font-semibold rounded-r-lg bg-indigo-600 text-white"
+                type="submit"
+              >
+                Connect With Me
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-3/5">
+          <img src="casual.png" alt="Favour" />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
