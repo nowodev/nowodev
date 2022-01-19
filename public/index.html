@@ -105,8 +105,8 @@
       class="relative flex min-h-screen pt-16 bg-gradient-to-tr from-indigo-300 to-white via-fuchsia-300"
     >
       <div class="container flex flex-col items-center mx-auto">
-        <div class="flex flex-row justify-between w-full px-24">
-          <div class="w-2/5 p-4">
+        <div class="flex flex-col justify-between w-full px-24 lg:flex-row">
+          <div class="w-full lg:p-4 lg:w-2/5">
             <h1 class="mb-3 text-4xl font-semibold">
               My awesome <span class="text-[#3f3937]">services</span>
             </h1>
@@ -114,9 +114,11 @@
               lorem ipsum dummy text are uually used for prints and websites
               industry. So I used theirs also.
             </p>
+            <!-- <div class="text-center lg:text-left"> -->
             <button class="px-5 font-medium py-1.5 rounded-full bg-amber-400">
               Download CV
             </button>
+            <!-- </div> -->
           </div>
 
           <div
@@ -141,16 +143,16 @@
           </div>
         </div>
 
-        <div class="flex flex-row justify-around w-full px-24">
+        <div class="flex flex-col justify-around w-full px-24 lg:flex-row">
           <div
-            class="flex flex-col items-center w-64 p-6 ml-24 -mt-8 space-y-2 text-center rounded-lg shadow-lg h-fit shadow-gray-400"
+            class="flex flex-col items-center w-64 p-6 mt-8 ml-24 space-y-2 text-center rounded-lg shadow-lg lg:-mt-8 h-fit shadow-gray-400"
           >
             <div
               class="flex items-center w-12 h-12 text-center rounded-full bg-amber-400"
             >
               <img src="telegram.png" alt="" />
             </div>
-            <h1 class="font-semibold">Developer</h1>
+            <h1 class="font-semibold">Development</h1>
             <p class="font-normal">
               lorem ipsum dummy text are uually used for prints and websites
               industry. So I used theirs also.
@@ -164,7 +166,7 @@
           </div>
 
           <div
-            class="flex flex-col items-center w-64 p-6 my-16 mr-12 space-y-2 text-center rounded-lg shadow-lg shadow-gray-400 h-fit"
+            class="flex flex-col items-center w-64 p-6 my-8 mr-12 space-y-2 text-center rounded-lg shadow-lg lg:my-16 shadow-gray-400 h-fit"
           >
             <div
               class="flex items-center w-12 h-12 text-center rounded-full bg-amber-400"
