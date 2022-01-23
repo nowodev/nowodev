@@ -12,7 +12,15 @@
     <title>Favour Okunowo</title>
   </head>
 
-  <body class="bg-[#4a6d66]">
+  <body class="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
+    <!-- <body class="bg-[#4F637D] "> -->
+    <!-- <body class="bg-gradient-to-r from-yellow-400 via-gray-50 to-teal-300"> -->
+    <!-- <body style="background: radial-gradient(rgb(253, 230, 138), rgb(124, 58, 237), rgb(12, 74, 110))"> -->
+    <!-- <body style="background: radial-gradient(at 50% 0%, rgb(209, 213, 219), rgb(192, 38, 211), rgb(234, 88, 12))"> -->
+    <!-- <body style="background: radial-gradient(at 50% 0%, rgb(180, 83, 9), rgb(253, 186, 116), rgb(159, 18, 57))"> -->
+    <!-- <body style="background: radial-gradient(rgb(56, 189, 248), rgb(49, 46, 129))"> -->
+    <!-- <body style="background: conic-gradient(rgb(199, 210, 254), rgb(71, 85, 105), rgb(199, 210, 254))"> -->
+
     <nav
       class="absolute top-0 z-50 flex flex-wrap items-center justify-between w-full"
     >
@@ -22,9 +30,11 @@
         <div
           class="relative flex justify-between w-full md:w-auto md:static md:block md:justify-start"
         >
-          <a href="index.html">
-            <img src="images/wolf.png" alt="Logo" />
-          </a>
+          <div class="w-auto h-auto p-1 bg-[#C2E812] rounded-full">
+            <a href="index.html">
+              <img src="images/wolf.png" alt="Logo" />
+            </a>
+          </div>
 
           <button
             class="p-2 text-3xl cursor-pointer md:hidden"
@@ -76,13 +86,17 @@
 
     <!-- hero section -->
     <section class="relative flex min-h-screen pt-16">
-      <div class="container flex flex-col items-center mx-auto md:flex-row-reverse">
+      <div
+        class="container flex flex-col items-center mx-auto md:flex-row-reverse"
+      >
         <div class="px-9 md:w-2/5 md:px-0">
           <img src="images/casual.png" alt="Favour" />
         </div>
 
         <div class="text-white mt-9 px-9 md:w-3/5 md:pr-16">
-          <div class="text-4xl font-extrabold text-center md:text-left lg:text-5xl xl:text-7xl">
+          <div
+            class="text-4xl font-extrabold text-center md:text-left lg:text-5xl xl:text-7xl"
+          >
             <h1>Building digital products, brands experience</h1>
           </div>
 
@@ -93,15 +107,15 @@
 
           <div class="lg:w-full lg:inline-flex">
             <input
-              class="text-black py-1.5 px-4 lg:py-3 rounded-lg lg:rounded-none lg:rounded-l-lg font-medium h-10 w-full lg:w-fit"
+              class="text-[#1F1627] py-1.5 px-4 lg:py-3 lg:rounded-none lg:rounded-l-full font-medium h-10 w-full lg:w-fit rounded-full"
               type="email"
               placeholder="Email address"
             />
             <button
-              class="px-6 py-1.5 mt-2 mb-5 lg:mt-0 float-right lg:float-none font-semibold rounded-lg lg:rounded-none lg:rounded-r-lg bg-[#3f3937] focus:ring-2 focus:ring-indigo-400 text-white h-10"
+              class="px-6 py-1.5 mt-2 mb-5 lg:mt-0 float-right lg:float-none font-semibold lg:rounded-none lg:rounded-r-full bg-[#C2E812] focus:ring-2 focus:ring-black text-[#1F1627] h-10 text-sm md:text-base rounded-full"
               type="submit"
-              >
-              Connect With Me</>
+            >
+              Connect With Me
             </button>
           </div>
         </div>
@@ -109,31 +123,33 @@
     </section>
     <!-- hero section -->
 
-    <section
-      class="relative flex w-full min-h-screen pt-16 bg-gradient-to-tr from-indigo-300 to-white via-fuchsia-300"
-    >
-      <div class="container flex flex-col items-center mx-auto">
+    <section class="relative flex w-full min-h-screen pt-16">
+      <div class="container flex flex-col items-center mx-auto text-white">
         <div
           class="flex flex-col justify-between w-full px-16 lg:px-24 md:flex-row lg:mb-12"
         >
           <div class="w-full lg:p-4 md:w-2/5">
             <h1 class="mb-3 text-4xl font-semibold lg:text-5xl">
-              My awesome <span class="text-[#3f3937]">services</span>
+              My awesome <span class="text-gray-300">services</span>
             </h1>
             <p class="mb-3 font-medium text-justify lg:text-lg">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.
             </p>
-            <button class="px-5 font-medium py-1.5 rounded-full bg-amber-400 focus:ring-2">
+            <button
+              class="px-5 font-semibold py-1.5 bg-[#C2E812] focus:ring-2 focus:ring-black rounded-full text-[#1F1627]"
+            >
               Download CV
             </button>
           </div>
 
           <div
-            class="flex flex-col items-center p-6 mt-8 space-y-2 text-center rounded-lg shadow-lg w-fit lg:ml-24 lg:mt-24 h-fit shadow-gray-400 md:w-64"
+            class="flex flex-col items-center p-6 mt-8 space-y-2 text-center rounded-3xl shadow-xl w-fit lg:ml-24 lg:mt-24 h-fit shadow-[#91F5AD] md:w-64"
           >
             <img
               src="images/wolf.png"
-              class="p-1 rounded-full bg-[#4a6d66]"
+              class="p-1 rounded-full bg-[#C2E812]"
               alt="Wolf"
             />
             <h1 class="font-semibold">Design</h1>
@@ -143,7 +159,7 @@
             </p>
 
             <button
-              class="px-5 font-medium py-1.5 bg-transparent border-2 text-cyan-400"
+              class="px-5 font-semibold py-1.5 bg-[#C2E812] focus:ring-2 focus:ring-black rounded-full text-[#1F1627]"
             >
               Learn More
             </button>
@@ -154,11 +170,11 @@
           class="flex flex-col justify-around w-full px-16 lg:px-24 md:flex-row"
         >
           <div
-            class="flex flex-col items-center p-6 mt-8 space-y-2 text-center rounded-lg shadow-lg w-fit lg:ml-24 md:-mt-6 h-fit shadow-gray-400 md:w-64 lg:-mt-20"
+            class="flex flex-col items-center p-6 mt-8 space-y-2 text-center rounded-3xl shadow-xl w-fit lg:ml-24 md:-mt-6 h-fit shadow-[#91F5AD] md:w-64 lg:-mt-20"
           >
             <img
               src="images/wolf.png"
-              class="p-1 rounded-full bg-[#4a6d66]"
+              class="p-1 rounded-full bg-[#C2E812]"
               alt="Wolf"
             />
             <h1 class="font-semibold">Development</h1>
@@ -168,18 +184,18 @@
             </p>
 
             <button
-              class="px-5 font-medium py-1.5 bg-transparent border-2 text-cyan-400"
+              class="px-5 font-semibold py-1.5 bg-[#C2E812] focus:ring-2 focus:ring-black rounded-full text-[#1F1627]"
             >
               Learn More
             </button>
           </div>
 
           <div
-            class="flex flex-col items-center p-6 my-8 space-y-2 text-center rounded-lg shadow-lg w-fit h-fit shadow-gray-400 md:w-64"
+            class="flex flex-col items-center p-6 my-8 space-y-2 text-center rounded-3xl shadow-xl w-fit h-fit shadow-[#91F5AD] md:w-64"
           >
             <img
               src="images/wolf.png"
-              class="p-1 rounded-full bg-[#4a6d66]"
+              class="p-1 rounded-full bg-[#C2E812]"
               alt="Wolf"
             />
             <h1 class="font-semibold">UX</h1>
@@ -189,7 +205,7 @@
             </p>
 
             <button
-              class="px-5 font-medium py-1.5 bg-transparent border-2 text-cyan-400"
+              class="px-5 font-semibold py-1.5 bg-[#C2E812] focus:ring-2 focus:ring-black rounded-full text-[#1F1627]"
             >
               Learn More
             </button>
