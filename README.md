@@ -24,7 +24,7 @@ I am Favour Okunowo, a **Back End Web Developer** (particularly in **Laravel**).
 ### Frameworks
 
 ![laravel](https://img.shields.io/badge/Laravel-20232A?style=for-the-badge&logo=laravel&logoColor=red)
-![vue](https://img.shields.io/badge/Vue-20232A?style=for-the-badge&logo=vue.js&logoColor=61DAFB)
+![vue](https://img.shields.io/badge/Vue-20232A?style=for-the-badge&logo=vue.js&logoColor=green)
 ![livewire](https://img.shields.io/badge/Livewire-20232A?style=for-the-badge&logo=livewire&logoColor=lightpink)
 ![alpine](https://img.shields.io/badge/Alpine-20232A?style=for-the-badge&logo=alpine.js&logoColor=61DAFB)
 
@@ -46,9 +46,9 @@ I am Favour Okunowo, a **Back End Web Developer** (particularly in **Laravel**).
 ## 🖥️ Workspace Setup
 
 ![i5-8th-gen](https://img.shields.io/badge/Intel-Core_i5_8th-0071C5?style=for-the-badge&logo=intel&logoColor=white)
-![windows](https://img.shields.io/badge/Ubuntu-0078D6?style=for-the-badge&logo=ubuntu&logoColor=orange)
-![vs-code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
-![phpstorm](https://img.shields.io/badge/phpstorm-007ACC?style=for-the-badge&logo=phpstorm&logoColor=purple)
+![ubuntu](https://img.shields.io/badge/Ubuntu-0078D6?style=for-the-badge&logo=ubuntu&logoColor=f28532)
+![vs-code](https://img.shields.io/badge/VS_Code-gray?style=for-the-badge&logo=Visual-Studio-Code&logoColor=blue)
+![phpstorm](https://img.shields.io/badge/phpstorm-007ACC?style=for-the-badge&logo=phpstorm&logoColor=black)
 
 ## 🔗 Links
 
@@ -59,6 +59,7 @@ I am Favour Okunowo, a **Back End Web Developer** (particularly in **Laravel**).
 [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:toluwaniokunowo@gmail.com)
 [![linked-in](https://img.shields.io/badge/twitter-0077B5?style=for-the-badge&logo=twitter&logoColor=white)](https://www.twitter.com/nowodev/)
 [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/farvyy/)
+[![hashnode](https://img.shields.io/badge/hashnode-111827?style=for-the-badge&logo=hashnode&logoColor=blue)](https://nowocodes.hashnode.dev/)
 
 <!-- [![resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://firebasestorage.googleapis.com/v0/b/tapajyoti-bose.appspot.com/o/Tapajyoti%20Bose.pdf?alt=media&token=68b3f3e3-cf56-4666-b4fa-9897c80eec2e) -->
 <!-- [![medium](https://img.shields.io/badge/medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://nowodev.medium.com/) -->
