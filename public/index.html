@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
+    <title>Favour Okunowo</title>
+
+    <link href="./style.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    
-    <!-- favicon  -->
-    <link rel="icon" type="icon/png" href="./images/wolf.png">
 
-    <title>Favour Okunowo</title>
+    <!-- favicon  -->
+    <link rel="icon" type="icon/png" href="./images/wolf.png" />
+
+    <link rel="apple-touch-icon" href="./images/wolf.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#2a2827" />
+    <meta name="theme-color" content="#2a2827" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-title" content="Apple" />
+
+    <link rel="manifest" href="./manifest.json" />
   </head>
 
   <body class="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
@@ -222,6 +231,13 @@
       <p class="font-bold text-center text-white">&COPY; NowoDev</p>
     </footer>
     <!-- footer -->
+
+    <script>
+      // check that service workers are supported
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./service-worker.js");
+      }
+    </script>
 
     <script>
       function toggle_navbar(navId) {
