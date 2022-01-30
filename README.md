@@ -23,10 +23,10 @@ I am Favour Okunowo, a **Back End Web Developer** (particularly in **Laravel**).
 
 ### Frameworks
 
-![laravel](https://img.shields.io/badge/Laravel-20232A?style=for-the-badge&logo=laravel&logoColor=red)
-![vue](https://img.shields.io/badge/Vue-20232A?style=for-the-badge&logo=vue.js&logoColor=green)
-![livewire](https://img.shields.io/badge/Livewire-20232A?style=for-the-badge&logo=livewire&logoColor=lightpink)
-![alpine](https://img.shields.io/badge/Alpine-20232A?style=for-the-badge&logo=alpine.js&logoColor=61DAFB)
+![laravel](https://img.shields.io/badge/Laravel-20232A?style=for-the-badge&logo=laravel&logoColor=#FF2D20)
+![vue](https://img.shields.io/badge/Vue-20232A?style=for-the-badge&logo=vue.js&logoColor=#4FC08D)
+![livewire](https://img.shields.io/badge/Livewire-20232A?style=for-the-badge&logo=livewire&logoColor=#4E56A6)
+![alpine](https://img.shields.io/badge/Alpine-20232A?style=for-the-badge&logo=alpine.js&logoColor=#8BC0D0)
 
 ### Cross Platform Development
 
@@ -46,20 +46,21 @@ I am Favour Okunowo, a **Back End Web Developer** (particularly in **Laravel**).
 ## 🖥️ Workspace Setup
 
 ![i5-8th-gen](https://img.shields.io/badge/Intel-Core_i5_8th-0071C5?style=for-the-badge&logo=intel&logoColor=white)
-![ubuntu](https://img.shields.io/badge/Ubuntu-0078D6?style=for-the-badge&logo=ubuntu&logoColor=f28532)
+![ubuntu](https://img.shields.io/badge/Ubuntu-0078D6?style=for-the-badge&logo=ubuntu&logoColor=#E95420)
 ![vs-code](https://img.shields.io/badge/VS_Code-gray?style=for-the-badge&logo=Visual-Studio-Code&logoColor=blue)
-![phpstorm](https://img.shields.io/badge/phpstorm-007ACC?style=for-the-badge&logo=phpstorm&logoColor=black)
+![phpstorm](https://img.shields.io/badge/phpstorm-d34e97?style=for-the-badge&logo=phpstorm&logoColor=000000)
+![sublime](https://img.shields.io/badge/sublime_text-253c44?style=for-the-badge&logo=sublimetext&logoColor=#FF9800)
 
-## 🔗 Links
+## 📟️ Connect with me
 
-[![portfolio](https://img.shields.io/badge/Portfolio-5340ff?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://nowodev.netlify.app/)
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/nowocodes/)
-[![dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=DevdotTo&logoColor=white)](https://dev.to/nowocodes)
 [![github](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/nowodev)
+[![portfolio](https://img.shields.io/badge/Portfolio-5340ff?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://nowodev.netlify.app/)
 [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:toluwaniokunowo@gmail.com)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/nowodev/)
 [![linked-in](https://img.shields.io/badge/twitter-0077B5?style=for-the-badge&logo=twitter&logoColor=white)](https://www.twitter.com/nowodev/)
 [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/farvyy/)
 [![hashnode](https://img.shields.io/badge/hashnode-111827?style=for-the-badge&logo=hashnode&logoColor=blue)](https://nowocodes.hashnode.dev/)
+[![dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=DevdotTo&logoColor=white)](https://dev.to/nowocodes)
 
 <!-- [![resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://firebasestorage.googleapis.com/v0/b/tapajyoti-bose.appspot.com/o/Tapajyoti%20Bose.pdf?alt=media&token=68b3f3e3-cf56-4666-b4fa-9897c80eec2e) -->
 <!-- [![medium](https://img.shields.io/badge/medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://nowodev.medium.com/) -->
