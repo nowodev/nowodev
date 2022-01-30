@@ -71,11 +71,11 @@ I am Favour Okunowo, a **Back End Web Developer** (particularly in **Laravel**).
 
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=nowodev&show_icons=true)
+  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nowodev&show_icons=true&theme=radical)
 
   <br />
   
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nowodev&layout=compact)
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nowodev&layout=compact&theme=radical)
   
   <br />
   
