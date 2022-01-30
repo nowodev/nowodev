@@ -34,7 +34,8 @@
     <!-- <body style="background: conic-gradient(rgb(199, 210, 254), rgb(71, 85, 105), rgb(199, 210, 254))"> -->
 
     <nav
-      class="absolute top-0 z-50 flex flex-wrap items-center justify-between w-full"
+      class="absolute top-0 z-50 flex flex-wrap items-center justify-between w-full bg-transparent"
+      id="bgcolor"
     >
       <div
         class="container flex flex-wrap items-center justify-between px-4 py-2 mx-auto text-center"
@@ -58,7 +59,7 @@
         </div>
 
         <div
-          class="items-center flex-auto hidden mt-2 bg-white rounded-lg shadow-lg md:flex grow md:mt-0 md:bg-transparent md:rounded-none md:shadow-none shadow-sky-300"
+          class="items-center flex-auto hidden mt-2 mb-2 bg-white rounded-lg md:flex grow md:mt-0 md:bg-transparent md:rounded-none"
           id="nav"
         >
           <ul
@@ -243,6 +244,9 @@
       function toggle_navbar(navId) {
         document.getElementById(navId).classList.toggle("hidden");
         document.getElementById(navId).classList.toggle("block");
+
+        document.getElementById("bgcolor").classList.toggle("bg-transparent");
+        document.getElementById("bgcolor").classList.toggle("bg-black");
       }
     </script>
   </body>
