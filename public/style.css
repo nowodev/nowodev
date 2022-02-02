@@ -964,6 +964,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(247 223 30 / var(--tw-text-opacity));
 }
 
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.decoration-sky-500\/30 {
+  -webkit-text-decoration-color: rgb(14 165 233 / 0.3);
+          text-decoration-color: rgb(14 165 233 / 0.3);
+}
+
+.decoration-wavy {
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+}
+
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);

@@ -297,10 +297,7 @@
 
     <!-- footer -->
     <footer class="container mx-auto my-9">
-      <p class="font-bold text-center text-white">&COPY; NowoDev</p>
-    </footer>
-    <!-- footer -->
-
+      <p class="font-bold text-center text-white underline decoration-sky-500/30 decoration-wavy">&COPY; NowoDev 2021 - <span id="currentYear"></span>
     <script>
       // check that service workers are supported
       if ("serviceWorker" in navigator) {
@@ -316,6 +313,9 @@
         document.getElementById("bgcolor").classList.toggle("bg-transparent");
         document.getElementById("bgcolor").classList.toggle("bg-black");
       }
+
+      let year = new Date().getFullYear();
+      document.getElementById("currentYear").innerHTML = year;
     </script>
   </body>
 </html>
