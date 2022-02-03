@@ -969,6 +969,11 @@ Ensure the default browser behavior of the `hidden` attribute.
           text-decoration-line: underline;
 }
 
+.decoration-sky-400 {
+  -webkit-text-decoration-color: #38bdf8;
+          text-decoration-color: #38bdf8;
+}
+
 .decoration-sky-500\/30 {
   -webkit-text-decoration-color: rgb(14 165 233 / 0.3);
           text-decoration-color: rgb(14 165 233 / 0.3);
@@ -1085,6 +1090,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 16rem;
   }
 
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1095,6 +1104,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:rounded-none {
