@@ -275,7 +275,7 @@
         <!-- footer -->
         <footer class="container mx-auto py-9">
             <p class="font-bold text-center text-white underline decoration-sky-500/30 decoration-wavy">&COPY; NowoDev
-                2021 - <span id="currentYear"></span>
+                2021 - {{ year }}
             </p>
         </footer>
     </div>
@@ -283,10 +283,25 @@
 
 <script>
     export default {
-        name: "Home"
+        name: "Home",
+
+        data() {
+            return {
+                show: false,
+                year: new Date().getFullYear()
+            }
+        },
+
+        methods: {
+            toggleNavbar: function () {
+                this.show = !this.show
+            }
+        }
+        //     function toggle_navbar(navId) {
+        // document.getElementById(navId).classList.toggle("hidden");
+        // document.getElementById(navId).classList.toggle("block");
+        //
+        // document.getElementById("bgcolor").classList.toggle("bg-transparent");
+        // document.getElementById("bgcolor").classList.toggle("bg-black");
     }
 </script>
-
-<style scoped>
-
-</style>
