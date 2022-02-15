@@ -26,19 +26,26 @@
 
                     <button
                             class="p-2 text-3xl cursor-pointer md:hidden"
-                            onclick="toggle_navbar('nav')"
                             type="button"
+                            @click="toggleNavbar"
                     >
-                        <i class="text-white fas fa-bars"></i>
+                        <svg :class="show !== false ? 'hidden' : 'block'" class="h-6 w-6 text-white" fill="none"
+                             stroke="currentColor"
+                             stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 8h16M4 16h16" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                        <svg :class="show === false ? 'hidden' : 'block'" class="h-6 w-6 text-white"
+                             fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </button>
                 </div>
 
-                <div
-                        id="nav"
-                        class="items-center flex-auto hidden mt-2 mb-2 bg-white rounded-lg md:flex grow md:mt-0 md:bg-transparent md:rounded-none"
+                <div id="nav" :class="show === false ? 'hidden' : 'block'"
+                     class="items-center flex-auto mt-2 mb-2 bg-white rounded-lg md:flex grow md:mt-0 md:bg-transparent md:rounded-none"
                 >
-                    <ul
-                            class="flex flex-col mr-auto text-lg font-bold text-black md:flex-row md:text-white"
+                    <ul class="flex flex-col mr-auto text-lg font-bold text-black md:flex-row md:text-white"
                     >
                         <li class="flex">
                             <a class="p-4" href="#">About</a>
