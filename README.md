@@ -87,17 +87,13 @@ I am Favour Okunowo, a **Back End Web Developer** (particularly in **Laravel**).
 
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=nowodev&show_icons=true&theme=radical)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=nowodev&show_icons=true&include_all_commits=true&count_private=true&theme=radical)
 
-  <br />
+![GitHub Streaks](https://github-readme-streak-stats.herokuapp.com/?user=nowodev&theme=dark)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nowodev&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nowodev&langs_count=10&layout=compact&theme=radical)
 
-  <br />
-
-  <img src="https://github-profile-trophy.vercel.app/?username=nowodev&row=10&column=6&margin-h=8&theme=darkhub&count_private=true&margin-w=15&no-frame=true" alt="profile trophies" />
-
-  <br />
+![Trophies](https://github-profile-trophy.vercel.app/?username=nowodev&row=10&column=6&margin-h=8&theme=darkhub&count_private=true&margin-w=15&no-frame=true)
 
 ![Profile views](https://gpvc.arturio.dev/nowodev)
 
