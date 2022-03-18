@@ -12,7 +12,7 @@
             <div class="container flex flex-wrap justify-between items-center px-4 py-2 mx-auto text-center">
                 <div class="flex relative justify-between w-full md:w-auto md:static md:block md:justify-start">
                     <div class="w-auto h-auto p-1 bg-[#C2E812] rounded-full">
-                        <a href="index.html">
+                        <a href="/">
                             <img alt="Logo" src="./assets/images/wolf.png" />
                         </a>
                     </div>
@@ -35,7 +35,7 @@
                 <div id="nav" :class="show === false ? 'hidden' : 'block'"
                      class="flex-auto items-center mt-2 mb-2 bg-white rounded-lg md:flex grow md:mt-0 md:bg-transparent md:rounded-none"
                 >
-                    <ul class="flex flex-col mr-auto text-lg font-bold text-black md:flex-row md:text-white">
+                    <ul class="flex flex-col justify-center mr-auto w-full text-lg font-bold text-black md:flex-row md:text-white">
                         <li class="flex">
                             <a class="p-4" href="#">About</a>
                         </li>
