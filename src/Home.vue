@@ -8,65 +8,7 @@
         <!-- <body style="background: radial-gradient(rgb(56, 189, 248), rgb(49, 46, 129))"> -->
         <!-- <body style="background: conic-gradient(rgb(199, 210, 254), rgb(71, 85, 105), rgb(199, 210, 254))"> -->
 
-        <nav class="flex absolute top-0 z-50 flex-wrap justify-between items-center w-full bg-transparent">
-            <div class="container flex flex-wrap justify-between items-center px-4 py-2 mx-auto text-center">
-                <div class="flex relative justify-between w-full md:w-auto md:static md:block md:justify-start">
-                    <div class="w-auto h-auto p-1 bg-[#C2E812] rounded-full">
-                        <a href="/">
-                            <img alt="Logo" src="./assets/images/wolf.png" />
-                        </a>
-                    </div>
-
-                    <button class="p-2 text-3xl cursor-pointer md:hidden" type="button"
-                            @click="toggleNavbar">
-                        <svg :class="show !== false ? 'hidden' : 'block'" class="w-6 h-6 text-white"
-                             fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4 8h16M4 16h16" stroke-linecap="round"
-                                  stroke-linejoin="round" />
-                        </svg>
-
-                        <svg :class="show === false ? 'hidden' : 'block'" class="w-6 h-6 text-white"
-                             fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
-                                  stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                </div>
-
-                <div id="nav" :class="show === false ? 'hidden' : 'block'"
-                     class="flex-auto items-center mt-2 mb-2 bg-white rounded-lg md:flex grow md:mt-0 md:bg-transparent md:rounded-none">
-                    <ul class="flex flex-col justify-center mr-auto w-full text-lg font-bold text-black md:flex-row md:text-white">
-                        <li class="flex">
-                            <a class="p-4" href="#">About</a>
-                        </li>
-                        <li class="flex">
-                            <a class="p-4" href="#">Works</a>
-                        </li>
-                        <li class="flex">
-                            <a class="p-4" href="#">Services</a>
-                        </li>
-                        <li class="flex">
-                            <a class="p-4" href="#">Contact</a>
-                        </li>
-                    </ul>
-
-                    <ul class="flex flex-row gap-2 cursor-pointer md:ml-auto md:text-white">
-                        <li class="flex">
-                            <a href="https://github.com/NowoDev" target="_blank">
-                                <i class="p-4 text-2xl fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li class="flex">
-                            <a href="https://twitter.com/nowodev" target="_blank">
-                                <i class="p-4 text-2xl fab fa-twitter"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <Navbar />
 
         <!-- hero section -->
         <section class="flex relative pt-16 min-h-screen">
@@ -253,22 +195,10 @@
 
 <script>
     import Footer from "./components/Footer.vue";
+    import Navbar from "./components/Navbar.vue";
 
     export default {
         name: "Home",
-        components: { Footer },
-
-
-        data() {
-            return {
-                show: false,
-            };
-        },
-
-        methods: {
-            toggleNavbar: function () {
-                this.show = !this.show;
-            },
-        },
+        components: { Navbar, Footer },
     };
 </script>
