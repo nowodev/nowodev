@@ -2,7 +2,7 @@
     <nav class="flex absolute top-0 z-50 flex-wrap justify-between items-center w-full bg-transparent">
         <div class="container flex flex-wrap justify-between items-center px-4 py-2 mx-auto text-center">
             <div class="flex relative justify-between w-full md:w-auto md:static md:block md:justify-start">
-                <div class="w-auto h-auto p-1 bg-[#C2E812] rounded-full">
+                <div class="w-auto h-auto p-1 bg-[#326059] rounded-full">
                     <a href="/">
                         <img alt="Logo" src="../assets/images/wolf.png" />
                     </a>

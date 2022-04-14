@@ -1,12 +1,12 @@
 <template>
-    <div class="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
-        <!-- <body class="bg-[#4F637D]"> -->
-        <!-- <body class="bg-gradient-to-r from-yellow-400 via-gray-50 to-teal-300"> -->
-        <!-- <body style="background: radial-gradient(rgb(253, 230, 138), rgb(124, 58, 237), rgb(12, 74, 110))"> -->
-        <!-- <body style="background: radial-gradient(at 50% 0%, rgb(209, 213, 219), rgb(192, 38, 211), rgb(234, 88, 12))"> -->
-        <!-- <body style="background: radial-gradient(at 50% 0%, rgb(180, 83, 9), rgb(253, 186, 116), rgb(159, 18, 57))"> -->
-        <!-- <body style="background: radial-gradient(rgb(56, 189, 248), rgb(49, 46, 129))"> -->
-        <!-- <body style="background: conic-gradient(rgb(199, 210, 254), rgb(71, 85, 105), rgb(199, 210, 254))"> -->
+    <!--    <div class="bg-gradient-to-r from-gray-700 via-gray-900 to-black">-->
+    <!--         <div class="bg-[#4F637D]">-->
+    <!--         <div class="bg-gradient-to-r from-yellow-400 via-gray-50 to-teal-300">-->
+    <!-- <div style="background: radial-gradient(rgb(253, 230, 138), rgb(124, 58, 237), rgb(12, 74, 110))"> -->
+    <!-- <div style="background: radial-gradient(at 50% 0%, rgb(209, 213, 219), rgb(192, 38, 211), rgb(234, 88, 12))"> -->
+    <!-- <div style="background: radial-gradient(at 50% 0%, rgb(180, 83, 9), rgb(253, 186, 116), rgb(159, 18, 57))"> -->
+    <div style="background: radial-gradient(rgb(56, 189, 248), rgb(49, 46, 129))">
+        <!-- <div style="background: conic-gradient(rgb(199, 210, 254), rgb(71, 85, 105), rgb(199, 210, 254))"> -->
 
         <Navbar />
 
@@ -23,16 +23,17 @@
                     </div>
 
                     <p class="my-4 text-xl text-center md:block md:text-left">
-                        A <strong>Fullstack Developer</strong> with a passion for building responsive and beautifully
+                        A <strong>Fullstack Developer</strong> with a passion for building responsive <br
+                            class="hidden xl:block"> and beautifully
                         crafted websites using the latest technologies.
                     </p>
 
-                    <div class="lg:w-full lg:inline-flex">
-                        <input class="text-[#1F1627] py-1.5 px-4 lg:py-3 lg:rounded-none lg:rounded-l-full font-medium h-10 w-full lg:w-fit rounded-full"
+                    <div class="inline-flex w-full">
+                        <input class="text-[#1F1627] py-3 px-4 font-medium w-full lg:w-96 rounded-l-full"
                                placeholder="Email address" type="email" />
-                        <button class="px-6 py-1.5 mt-2 mb-5 lg:mt-0 float-right lg:float-none font-semibold lg:rounded-none lg:rounded-r-full bg-[#C2E812] focus:ring-2 focus:ring-black text-[#1F1627] h-10 text-sm md:text-base rounded-full"
+                        <button class="px-6 py-3 float-right lg:float-none font-semibold rounded-r-full bg-[#326059] focus:ring-2 focus:ring-black text-sm md:text-base"
                                 type="submit">
-                            Connect With Me
+                            Connect
                         </button>
                     </div>
                 </div>
