@@ -41,7 +41,7 @@
         </section>
         <!-- hero section -->
 
-        <section class="flex relative mt-16 w-full min-h-screen">
+        <section class="flex relative mt-16 w-full min-h-screen" id="services">
             <div class="container flex flex-col items-center mx-auto text-white">
                 <div class="flex flex-col justify-between px-16 w-full lg:px-24 md:flex-row lg:mb-12">
                     <div class="w-full lg:p-4 md:w-2/5">
