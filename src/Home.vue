@@ -14,7 +14,7 @@
         <section class="flex relative pt-16 min-h-screen">
             <div class="container flex flex-col items-center mx-auto md:flex-row-reverse">
                 <div class="px-9 md:w-2/5 md:px-0">
-                    <img alt="Favour" src="./assets/images/casual.png" />
+                    <img alt="Favour" class="w-72 md:w-full" src="./assets/images/casual.png" />
                 </div>
 
                 <div class="px-9 mt-9 text-white md:w-3/5 md:pr-16">
@@ -29,9 +29,9 @@
                     </p>
 
                     <div class="inline-flex w-full">
-                        <input class="text-[#1F1627] py-3 px-4 font-medium w-full lg:w-96 rounded-l-full"
+                        <input class="text-[#1F1627] py-3 px-6 font-medium w-full lg:w-96 rounded-l-full"
                                placeholder="Email address" type="email" />
-                        <button class="px-6 py-3 float-right lg:float-none font-semibold rounded-r-full bg-[#326059] focus:ring-2 focus:ring-black text-sm md:text-base"
+                        <button class="px-6 py-3 float-right lg:float-none font-semibold rounded-r-full bg-[#326059] focus:ring-2 focus:ring-black"
                                 type="submit">
                             Connect
                         </button>
@@ -41,7 +41,7 @@
         </section>
         <!-- hero section -->
 
-        <section class="flex relative mt-16 w-full min-h-screen" id="services">
+        <section id="services" class="flex relative mt-16 w-full min-h-screen">
             <div class="container flex flex-col items-center mx-auto text-white">
                 <div class="flex flex-col justify-between px-16 w-full lg:px-24 md:flex-row lg:mb-12">
                     <div class="w-full lg:p-4 md:w-2/5">
