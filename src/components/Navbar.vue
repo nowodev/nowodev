@@ -1,11 +1,11 @@
 <template>
-    <nav class="flex absolute top-0 z-50 flex-wrap justify-between items-center w-full bg-transparent">
-        <div class="container flex flex-wrap justify-between items-center px-4 py-2 mx-auto text-center">
+    <nav :class="changeColorOnScroll"
+         class="flex fixed top-0 z-50 flex-wrap justify-between items-center w-full">
+        <div :class="changeColorOnToggle"
+             class="container flex flex-wrap justify-between items-center px-4 py-2 mx-auto text-center">
             <div class="flex relative justify-between w-full md:w-auto md:static md:block md:justify-start">
-                <div class="w-auto h-auto p-1 bg-[#326059] rounded-full">
-                    <a href="/">
-                        <img alt="Logo" src="../assets/images/wolf.png" />
-                    </a>
+                <div class="w-auto cursor-all-scroll h-auto p-1 bg-[#326059] rounded-full">
+                    <img alt="Logo" src="../assets/images/wolf.png" />
                 </div>
 
                 <button class="p-2 text-3xl cursor-pointer md:hidden" type="button"
@@ -57,7 +57,7 @@
                     </li>
                     <li class="flex p-4">
                         <a href="https://twitter.com/nowodev" target="_blank">
-                            <svg class="w-5 h-5 fill-white" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="w-5 h-5 fill-blue-500" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                 <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                                 <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
                             </svg>
@@ -76,6 +76,7 @@
         data() {
             return {
                 show: false,
+                scrollPosition: null
             };
         },
 
@@ -83,6 +84,24 @@
             toggleNavbar: function () {
                 this.show = !this.show;
             },
+
+            updateScroll() {
+                this.scrollPosition = window.scrollY
+            }
         },
+
+        computed: {
+            changeColorOnScroll: function () {
+                return this.scrollPosition > 1 ? 'bg-[#326059]' : 'bg-transparent'
+            },
+
+            changeColorOnToggle: function () {
+                return this.show ? 'bg-[#326059]' : 'bg-transparent'
+            }
+        },
+
+        mounted() {
+            window.addEventListener('scroll', this.updateScroll);
+        }
     }
 </script>
