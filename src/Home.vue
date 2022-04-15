@@ -11,7 +11,7 @@
         <Navbar />
 
         <!-- hero section -->
-        <section class="flex relative pt-16 min-h-screen">
+        <section id="home" class="flex relative pt-16 min-h-screen">
             <div class="container flex flex-col items-center mx-auto md:flex-row-reverse">
                 <div class="px-9 md:w-2/5 md:px-0">
                     <img alt="Favour" class="w-72 md:w-full" src="./assets/images/casual.png" />
@@ -40,6 +40,8 @@
             </div>
         </section>
         <!-- hero section -->
+
+        <section id="about" class="min-h-screen"></section>
 
         <section id="services" class="flex relative mt-16 w-full min-h-screen">
             <div class="container flex flex-col items-center mx-auto text-white">
@@ -105,6 +107,8 @@
                 </div>
             </div>
         </section>
+
+        <section id="contact" class="min-h-screen"></section>
 
         <!-- works -->
         <section class="relative mt-16 w-full min-h-screen">
