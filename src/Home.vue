@@ -114,9 +114,7 @@
             <h1 class="text-xl">Services</h1>
         </section>
 
-        <section id="contact" class="flex relative min-h-screen">
-            <h1 class="text-xl">Contact</h1>
-        </section>
+        <Contact />
 
         <!-- works -->
         <!--        <section class="relative mt-16 w-full min-h-screen">-->
@@ -207,11 +205,12 @@
 </template>
 
 <script>
+    import Contact from "./components/Contact.vue";
     import Footer from "./components/Footer.vue";
     import Navbar from "./components/Navbar.vue";
 
     export default {
         name: "Home",
-        components: { Navbar, Footer },
+        components: { Contact, Navbar, Footer },
     };
 </script>
