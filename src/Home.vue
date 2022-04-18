@@ -19,7 +19,7 @@
 
                 <div class="px-9 mt-9 text-white md:w-3/5 md:pr-16">
                     <div class="text-5xl font-extrabold text-left md:text-6xl">
-                        <h2>Hi, I'm Favour</h2>
+                        <h2>Hi, I'm Favour!</h2>
                     </div>
 
                     <p class="my-4 text-xl md:text-2xl">
