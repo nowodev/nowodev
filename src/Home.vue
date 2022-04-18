@@ -41,9 +41,7 @@
         </section>
         <!-- hero section -->
 
-        <section id="about" class="flex relative min-h-screen">
-            <h1 class="text-xl">About</h1>
-        </section>
+        <About />
 
         <!--        <section id="services" class="flex relative mt-16 w-full min-h-screen">-->
         <!--            <div class="container flex flex-col items-center mx-auto text-white">-->
@@ -205,12 +203,13 @@
 </template>
 
 <script>
+    import About from "./components/About.vue";
     import Contact from "./components/Contact.vue";
     import Footer from "./components/Footer.vue";
     import Navbar from "./components/Navbar.vue";
 
     export default {
         name: "Home",
-        components: { Contact, Navbar, Footer },
+        components: { About, Contact, Navbar, Footer },
     };
 </script>
