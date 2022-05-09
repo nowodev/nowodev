@@ -1,5 +1,5 @@
 <template>
-    <footer class="container flex justify-between items-center px-8 py-4 mx-auto font-bold text-white border-t-2 border-t md:px-16">
+    <footer class="container flex justify-between items-center px-8 py-4 mx-auto font-bold text-white border-t-2 md:px-16">
         <div class="flex space-x-4">
             <p>NowoDev.</p>
             <p>&COPY; 2021 - {{ year }}</p>
