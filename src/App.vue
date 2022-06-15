@@ -5,6 +5,6 @@
 import ComingSoon from "./ComingSoon.vue";</script>
 
 <template>
-    <!-- <Home /> -->
-    <ComingSoon />
+    <Home />
+    <!-- <ComingSoon /> -->
 </template>
