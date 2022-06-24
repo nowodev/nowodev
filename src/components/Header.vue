@@ -65,7 +65,7 @@
         </header>
 
         <div class="absolute flex top-0 h-screen z-10">
-            <div class="transition-all duration-700 overflow-hidden bg-gray-800 flex items-center justify-center"
+            <div class="transition-all duration-700 overflow-hidden bg-gray-700 flex items-center justify-center"
                 :class="[open ? 'max-w-lg' : 'max-w-0']">
 
                 <nav
@@ -94,6 +94,8 @@
                 </nav>
             </div>
         </div>
+
+        <slot />
     </div>
 </template>
 
