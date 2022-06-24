@@ -1,7 +1,8 @@
 <template>
     <div class="min-h-screen h-screen relative">
         <header
-            class="text-gray-400 bg-gray-900 body-font border-b border-gray-400 z-20 w-full top-0 fixed">
+            class="text-gray-400 body-font z-20 w-full top-0 fixed">
+            <!-- class="text-gray-400 bg-gray-900 body-font border-b border-gray-400 z-20 w-full top-0 fixed"> -->
             <div class="container mx-auto flex flex-row p-5 md:items-center">
                 <div class="flex w-full md:w-fit">
                     <a class="flex title-font font-medium items-center text-white">
