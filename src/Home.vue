@@ -1,13 +1,51 @@
 <template>
     <div class="bg-gray-900">
-        <Header>
-            <section class="h-full">
+        <Header />
+        <!-- <section class="h-full w-full flex relative">
                 <div
-                    class="w-full lg:w-1/3 lg:fixed outline lg:rounded-r-full outline-sky-500 grid place-items-center bg-gray-700 lg:z-10 h-1/2 lg:h-full">
-                    <img alt="Favour" class="w-72 md:w-4/5" src="./assets/images/casual.png" />
+                    class="w-full lg:w-1/3 lgfixed outline lgrounded-r-full outline-sky-500 grid place-items-center lg:z-10 h-1/2 lg:h-full">
+                    <img alt="Favour" class="w-72 lg:w-4/5 lg:mr-10"
+                        src="./assets/images/casual.png" />
+                </div>
+            </section> -->
+
+        <main class="h-screen flex">
+
+            <!-- Fixed sidebar -->
+            <aside
+                class="bg-gray-600 w-1/3 justify-center h-screen flex text-center place-items-center">
+                <!-- Sidebar content -->
+                <div class="flex flex-col text-white px-4 gap-y-4">
+                    <h1 class="text-6xl">OKUNOWO FAVOUR</h1>
+                    <h2 class="text-lg">Fullstack Web Developer</h2>
+
+                    <div class="space-x-4">
+                        <Button>Get in touch</Button>
+                        <Button>Resume</Button>
+                    </div>
+
+                    <div class="flex gap-x-2 justify-center">
+                        <Github />
+                        <Twitter />
+                        <Github />
+                        <Twitter />
+                        <Github />
+                        <Twitter />
+                    </div>
+                </div>
+                <!-- <img alt="Favour" class="w-72 lg:w-4/5 lg:mr-10" src="./assets/images/casual.png" /> -->
+            </aside>
+
+            <!-- Scroll wrapper -->
+            <section class="flex-1 grid overflow-hidden place-content-center z-50">
+                <!-- Scrollable container -->
+                <div class="flex-1 overflow-y-scroll text-white">
+                    <!-- Your content -->
+                    <h1></h1>
                 </div>
             </section>
-        </Header>
+        </main>
+
 
         <!-- hero section -->
         <!--		<section id="home" class="flex relative pt-16 min-h-screen">-->
@@ -49,11 +87,14 @@
 import About from "./components/About.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
-import Header from "./components/Header.vue";
+import Header from "./layouts/Header.vue";
 import Navbar from "./components/NavbarOld.vue";
+import Button from "./components/Button.vue";
+import Github from "./components/social-links/Github.vue";
+import Twitter from "./components/social-links/Twitter.vue";
 
 export default {
     name: "Home",
-    components: { Header, About, Contact, Navbar, Footer },
+    components: { Header, About, Contact, Navbar, Footer, Button, Github, Twitter },
 };
 </script>
